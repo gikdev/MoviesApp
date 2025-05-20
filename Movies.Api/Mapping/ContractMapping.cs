@@ -23,6 +23,7 @@ public static class ContractMapping
         {
             Id = Guid.NewGuid(),
             Title = movie.Title,
+            Slug = movie.Slug,
             YearOfRelease = movie.YearOfRelease,
             Genres = movie.Genres.ToList(),
         };
